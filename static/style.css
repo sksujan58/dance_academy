@@ -1,0 +1,174 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar{
+    height: 30px;
+    background-color:#1a1818;
+    padding: 12px 14px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    /* width: 100%; */
+
+}
+
+#navbar ul{
+    display: flex;
+    
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 10px;
+
+    font-family: 'Pacifico', cursive;
+    color: lightgoldenrodyellow;
+    
+}
+
+#navbar li a:hover{
+    color: lightpink;
+}
+
+#introSection{
+    height: 500px;
+     color:white;
+     font-weight: bold;
+     font-family: 'Lemonada', cursive;
+     
+    
+    /* background-color: rgb(192, 192, 153); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    
+    
+    width: 100%;
+
+}
+
+.big{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.small{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#introSection::before{
+        margin: 54px 0px;
+        content: "";
+        background: url('../static/bg5.jpg') center center/cover no-repeat  padding-box border-box #ccc;
+        /* no-repeat center center; */
+        top: 0px;
+        /* opacity: 0.7; */
+        position: absolute;
+        z-index: -1;   
+        width: 100%;
+        height: 500px;
+      
+}
+
+#ourmission{
+    height: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.main_card{
+    display: flex;
+    margin: 10px 2px;
+    
+}
+
+#SponserSection{
+    height: 300px;
+    background-color: rgb(63, 57, 57);
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer{
+    height: 50px;
+    background-color:#02162a;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+#footer p{
+    padding-top: 13px;
+}
+
+
+.card{
+    text-align: left;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 4px;
+    padding: 3px 5px;
+    height: 200px;
+    margin: 3px 10px;
+    font-size: 18px;
+    display: flex;
+}
+
+#logo img{
+
+    height: 35px;
+    margin-right: 40px;
+    filter: invert(100%);
+}
+
+#subs{
+    margin-left: auto;
+    margin-right: 20px;
+    
+}
+
+.btn{
+background-color: transparent;
+border: 1px solid white;
+border-radius: 4px;
+color: white;
+width: 78px;
+height: 30px;
+cursor: pointer;
+}
+
+.card-img img{
+    height: 157px;
+    width: 120px;
+}
+
+.details{
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+
+
+#sponserslogo img {
+    height: 151px;
+    width: 234px;
+    padding: 31px 62px;
+}
+

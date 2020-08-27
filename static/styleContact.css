@@ -1,0 +1,45 @@
+
+
+h1{
+    text-align: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.main_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px
+    
+    
+}
+
+.btncontact{
+  border: 2px solid black;
+  color: black;
+  font-size: 19px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myInput{
+    margin: 6px 0px;
+    width: 400px;
+    border: 2px solid black;
+    height: 25px;
+    padding: 0px 8px;
+    border-radius: 9px;
+    outline: none;
+}
+
+.main_contact{
+    min-height: 83vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}

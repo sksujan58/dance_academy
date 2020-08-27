@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+    script(src='/static/script.js')
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introSection
+        p.big Best Dance Academy 
+        p.small Try to express not to impress
+
+    section#ourmission
+            |mission
+            div.main_card
+                div.card 
+                    div.card-img
+                        img(src="static/img/1.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+                div.card 
+                    div.card-img
+                        img(src="static/img/3.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+                div.card 
+                    div.card-img
+                        img(src="static/img/2.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+
+    section#SponserSection
+            p Our Sponsers
+            div#sponserslogo 
+                img(src="../static/img/logo1.png", alt="img1")
+                img(src="../static/img/logo2.png", alt="img1")
+                img(src="../static/img/logo3.png", alt="img1")
+                img(src="../static/img/logo4.png", alt="img1")

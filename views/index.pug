@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="../static/img/logo.png", alt="logo")
+
+            li #[a(href="#") Home]
+            li #[a(href="#") About]
+            li #[a(href="#") Contact Us]
+            li #[a(href="#") Services]
+            li #[a(href="#") Info]
+
+            div#subs 
+                button.btn subscribe
+
+    section#introSection
+        | Best Dance Academy 
+        p.small Try to express not to impress
+
+    section#ourmission
+            |mission
+            div.main_card
+                div.card 
+                    div.card-img
+                        img(src="static/img/1.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+                div.card 
+                    div.card-img
+                        img(src="static/img/3.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+                div.card 
+                    div.card-img
+                        img(src="static/img/2.png", alt="")
+                    div.details       
+                        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus numquam veritatis repudiandae
+
+
+    section#SponserSection
+            | Our Sponsers
+            div#sponserslogo 
+                img(src="../static/img/logo1.png", alt="img1").sponser
+                img(src="../static/img/logo2.png", alt="img1").sponser
+                img(src="../static/img/logo3.png", alt="img1").sponser
+                img(src="../static/img/logo4.png", alt="img1").sponser
+        
+
+    footer#footer
+        p copyright 2020 (c) sujandanceacademy.com | All rights reserved              
+
+    script
+      include ../static/script.js
